@@ -87,8 +87,6 @@ export const signIn = async (req, res, next) => {
         user,
       },
     });
-
-    res.status();
   } catch (error) {
     next(error);
   }
